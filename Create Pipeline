@@ -1,0 +1,6 @@
+pipeline = Pipeline(
+    [
+        ("scaler", StandardScaler()),
+        ("model", LogisticRegression(max_iter=1000))
+    ]
+)
