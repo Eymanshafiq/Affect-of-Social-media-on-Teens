@@ -1,0 +1,14 @@
+encoder = LabelEncoder()
+
+df["gender"] = encoder.fit_transform(df["gender"])
+
+# Select Features and Target
+X = df[
+    [
+        "daily_screen_time_hours",
+        "social_media_hours",
+        "gender"
+    ]
+]
+
+y = df["problematic_use_flag"]
