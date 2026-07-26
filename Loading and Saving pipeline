@@ -1,0 +1,20 @@
+joblib.dump(pipeline, "Teen_pipeline.joblib")
+
+print("Pipeline Saved Successfully")
+
+
+loaded_pipeline = joblib.load("Teen_pipeline.joblib")
+
+
+new_data = pd.DataFrame(
+    {
+        "daily_screen_time_hours": [6, 8],
+        "social_media_hours": [4, 7],
+        "gender": [1, 0]
+    }
+)
+
+prediction = loaded_pipeline.predict(new_data)
+
+print("Prediction")
+print(prediction)
