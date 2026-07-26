@@ -1,0 +1,3 @@
+df = pd.read_csv(
+    r"C:\Users\eyman\Downloads\global_teen_social_media_behaviour_464k_2015_2060_synthetic.csv"
+)
