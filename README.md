@@ -55,9 +55,9 @@ A machine learning project that predicts whether a teenager exhibits "problemati
 
 The trained model predicts whether a teenager is likely to have problematic social media usage based on the selected input features. The preprocessing steps and trained classifier are combined into a reusable Scikit-learn pipeline for consistent and efficient predictions.
 
-##Future improvements
-Comparison of multiple machine learning models.
-Improvement via the hyperparameter tuning.
-Deployment of model as a Web API using FastAPI
-Deployment of deep learning
+##Future Improvements
+*Comparison of multiple machine learning models.
+*Improvement via the hyperparameter tuning.
+*Deployment of model as a Web API using FastAPI
+*Deployment of deep learning
 
